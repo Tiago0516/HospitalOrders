@@ -1,0 +1,32 @@
+# Build output
+bin/
+obj/
+
+# Logs generados en runtime
+logs/
+*.log
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+
+# dotnet
+*.dll
+*.exe
+*.pdb
+project.lock.json
+project.fragment.lock.json
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Secretos y configuración local
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# macOS
+.DS_Store
